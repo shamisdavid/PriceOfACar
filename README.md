@@ -17,8 +17,11 @@ Despite the massive car listings in the dataset, data preprocessing would need t
 
 ## Data Understanding
 
-One of the first visualizations was to determine the distribution of car manufacturers in the dataset. The countplot below shows the most frequent manufacturers by number of records in the dataset. It provides an overview of most represented manufacturers in the dataset, which can potentially provide information on trends and availability of various brands of cars in various regions.
-![image](https://github.com/user-attachments/assets/3ccbae97-987d-4960-a045-feb11695dcac)
+There were unrealistic values in the dataset when it was first analyzed, such as cars with a price of zero and weird odometer readings (e.g., single-digit values). These outliers were excluded in data preparation.
+Price vs. Make for Vehicles with More Than 120,000 Miles:
+![image](https://github.com/user-attachments/assets/0be40b77-ae99-4531-89eb-d36008bbada5)
+
+The graph shows significant variation in the prices of automobiles by manufacturer. As a case in point, luxury brands are observed to have pricier automobiles even when mileage exceeds 120,000 miles, while economy brands show a more significant drop in prices. This is noteworthy in ascertaining the contribution of the manufacturer to price.
 
 
 
