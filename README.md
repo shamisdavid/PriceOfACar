@@ -3,7 +3,7 @@ UC Berkeley AI/ML Course Assignment: What Drives the Price of a Car?
 
 ## Business Understanding
 
-From a business perspective, we are tasked with identifying key drivers for used car prices.  In the CRISP-DM overview, we are asked to convert this business framing to a data problem definition.  Using a few sentences, reframe the task as a data task with the appropriate technical vocabulary. 
+From a business perspective, I am tasked with identifying key drivers for used car prices.  In the CRISP-DM overview, I am asked to convert this business framing to a data problem definition.  Using a few sentences, reframe the task as a data task with the appropriate technical vocabulary. 
 
 ##### Understanding the Business Context
 
@@ -35,5 +35,15 @@ Price vs. Condition for Cars with More Than 100,000 Miles and More Than 10 Years
 ![image](https://github.com/user-attachments/assets/a841011e-4857-49d8-a11e-fa1bdfdfdb53)
 
 This graph looks at the impact of the high-mileage, older car's condition on price. The data indicated that condition was still a valid determinant of price, even in cars with over 100,000 miles and greater than 10 years old. Cars in "excellent" and "good" condition commanded the most money, and "fair" and "poor" condition were considerably less.
+
+## Regression Models
+
+##### Regression Analysis Summary
+
+I tried several models, such as random forest and linear regression models, with features such as odometer reading, condition, age, and make. I tried to see if I could model car prices based on these variables.
+Model Performance: Models trained on higher-mileage vehicles (i.e., 150,000-200,000 miles) were less accurate in their predictions, with greater variability in price. It was our hypothesis that the relationship between mileage and price is nonlinear and requires more advanced modeling.
+Model Example: Price by Age for Cars with More Than 200,000 Miles:
+The correlation between price and age for cars with more than 200,000 miles on them was not quite as strong, but there was a weak negative correlation, indicating that older high-mileage cars depreciate faster than younger cars of comparable mileage.
+![image](https://github.com/user-attachments/assets/2c8a8f08-91ad-47aa-b8a7-d29abd09dc49)
 
 
