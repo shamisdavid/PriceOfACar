@@ -18,3 +18,4 @@ Despite the massive car listings in the dataset, data preprocessing would need t
 ## Data Understanding
 
 After considering the business understanding, we want to get familiar with our data.  Write down some steps that you would take to get to know the dataset and identify any quality issues within.  Take time to get to know the dataset and explore what information it contains and how this could be used to inform your business understanding.
+![image](https://github.com/user-attachments/assets/029402a8-3085-487b-8317-f004b7f693f7)
