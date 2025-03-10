@@ -48,5 +48,10 @@ Model Example: Price by Age for Cars with More Than 200,000 Miles:
 
 The correlation between price and age for cars with more than 200,000 miles on them was not quite as strong, but there was a weak negative correlation, indicating that older high-mileage cars depreciate faster than younger cars of comparable mileage.
 
+## Findings
+
+##### Enhancing Data Quality:
+- Additional filtering would attempt to eliminate implausible records, particularly for vehicles in excess of 15 years or with very high mileage, that may be less reflective of the broader used car market.
+- Recommendation: Include more recent years of cars in the database since they contain features that are increasingly gaining applications with respect to pricing, e.g., entertainment and security features.
 
 
