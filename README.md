@@ -17,5 +17,8 @@ Despite the massive car listings in the dataset, data preprocessing would need t
 
 ## Data Understanding
 
-After considering the business understanding, we want to get familiar with our data.  Write down some steps that you would take to get to know the dataset and identify any quality issues within.  Take time to get to know the dataset and explore what information it contains and how this could be used to inform your business understanding.
-![image](https://github.com/user-attachments/assets/029402a8-3085-487b-8317-f004b7f693f7)
+One of the first visualizations was to determine the distribution of car manufacturers in the dataset. The countplot below shows the most frequent manufacturers by number of records in the dataset. It provides an overview of most represented manufacturers in the dataset, which can potentially provide information on trends and availability of various brands of cars in various regions.
+![image](https://github.com/user-attachments/assets/3ccbae97-987d-4960-a045-feb11695dcac)
+
+
+
