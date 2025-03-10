@@ -18,10 +18,22 @@ Despite the massive car listings in the dataset, data preprocessing would need t
 ## Data Understanding
 
 There were unrealistic values in the dataset when it was first analyzed, such as cars with a price of zero and weird odometer readings (e.g., single-digit values). These outliers were excluded in data preparation.
+
 Price vs. Make for Vehicles with More Than 120,000 Miles:
 ![image](https://github.com/user-attachments/assets/0be40b77-ae99-4531-89eb-d36008bbada5)
 
 The graph shows significant variation in the prices of automobiles by manufacturer. As a case in point, luxury brands are observed to have pricier automobiles even when mileage exceeds 120,000 miles, while economy brands show a more significant drop in prices. This is noteworthy in ascertaining the contribution of the manufacturer to price.
 
+## Data Preparation
+
+##### Data Cleaning Process
+
+Records with unrealistic price or odometer values were removed (i.e., zero price values and unrealistic mileage).
+Additional Filters: Vehicles more than 10 years old were separated for the price effect analysis by age. The data was filtered further to have cars with more than 100,000 miles to ensure that the results are significant.
+
+Price vs. Condition for Cars with More Than 100,000 Miles and More Than 10 Years Old:
+![image](https://github.com/user-attachments/assets/a841011e-4857-49d8-a11e-fa1bdfdfdb53)
+
+This graph looks at the impact of the high-mileage, older car's condition on price. The data indicated that condition was still a valid determinant of price, even in cars with over 100,000 miles and greater than 10 years old. Cars in "excellent" and "good" condition commanded the most money, and "fair" and "poor" condition were considerably less.
 
 
