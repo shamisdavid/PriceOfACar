@@ -41,7 +41,7 @@ This graph looks at the impact of the high-mileage, older car's condition on pri
 ##### Regression Analysis Summary
 
 I tried several models, such as random forest and linear regression models, with features such as odometer reading, condition, age, and make. I tried to see if I could model car prices based on these variables.
-Model Performance: Models trained on higher-mileage vehicles (i.e., 150,000-200,000 miles) were less accurate in their predictions, with greater variability in price. It was our hypothesis that the relationship between mileage and price is nonlinear and requires more advanced modeling.
+Model Performance: Models trained on higher-mileage vehicles (i.e., 150,000-200,000 miles) were less accurate in their predictions, with greater variability in price. It was my hypothesis that the relationship between mileage and price is nonlinear and requires more advanced modeling.
 
 Model Example: Price by Age for Cars with More Than 200,000 Miles:
 ![image](https://github.com/user-attachments/assets/2c8a8f08-91ad-47aa-b8a7-d29abd09dc49)
