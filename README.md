@@ -3,7 +3,7 @@ UC Berkeley AI/ML Course Assignment: What Drives the Price of a Car?
 
 ## Business Understanding
 
-The problem is to determine the most influential factors of second-hand car prices from the given dataset so that car dealers can make better decisions regarding which cars to supply in their dealerships. Knowing the variables that drive demand and price, dealers can make tactical choices on which cars to choose so that they will sell faster and at reasonable prices, hence maximizing returns.
+From a business perspective, we are tasked with identifying key drivers for used car prices.  In the CRISP-DM overview, we are asked to convert this business framing to a data problem definition.  Using a few sentences, reframe the task as a data task with the appropriate technical vocabulary. 
 
 ##### Business Context
 
