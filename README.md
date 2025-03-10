@@ -54,4 +54,8 @@ The correlation between price and age for cars with more than 200,000 miles on t
 - Additional filtering would attempt to eliminate implausible records, particularly for vehicles in excess of 15 years or with very high mileage, that may be less reflective of the broader used car market.
 - Recommendation: Include more recent years of cars in the database since they contain features that are increasingly gaining applications with respect to pricing, e.g., entertainment and security features.
 
+##### Future Models:
+- Additional models would explore the interaction between mileage, condition, and age more closely, perhaps with machine learning approaches like random forests or gradient boosting to look for non-linear interactions.
 
+##### Model Improvements:
+- By filtering the dataset beforehand to include only newer cars (i.e., cars younger than 15 years), the models could potentially yield more precise predictions with better accuracy scores.
